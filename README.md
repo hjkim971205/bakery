@@ -8,8 +8,7 @@
 
 * _C#_
 * _.NET_
-* _you used in your project_
-* _here_
+* _MSTest_
 
 ## Description
 
