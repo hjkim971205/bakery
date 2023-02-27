@@ -1,8 +1,8 @@
-# _{Application Name}_
+# _Bakery_
 
-#### By Eliot Gronstal
+#### By Hyung Jin Kim
 
-#### _{Brief description of application}_
+#### _It will take in the order from the customer and give an output of how much the order total will be_
 
 ## Technologies Used
 
@@ -17,20 +17,19 @@ _{This is a detailed description of your application. Give as much detail as nee
 ## Setup/Installation Requirements
 
 * _Clone this repo._
-* _Open your terminal (e.g., Terminal or GitBash) and navigate to this project's production directory called "ProjectName"._
-* _In the command line, run the command ``dotnet run`` to compile and execute the console application. Since this is a console application, you'll interact with it through text commands in your terminal._
-* _Optionally, you can run ``dotnet build`` to compile this console app without running it._
-* _cont'd_
+* _Open your terminal._
+* _dotnet run._
+* _dotnet build._
 
 
 ## Known Bugs
 
 * _Any known issues_
 
-* _Please reach out with any questions or concerns to [eliot.lauren@gmail.com](eliot.lauren@gmail.com)_
+* _hyungjinkim1205@gmail.com_
 
 ## License
 
 _[MIT](https://opensource.org/license/mit/)_
 
-Copyright (c) _2023_ _Eliot Gronstal_
+Copyright (c) _2023_ _Hyung Jin Kim_
