@@ -1,24 +1,36 @@
-/*
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using ProjectName.Models;
-using System.Collections.Generic; 
+using Bakery.Models;
+using System.Collections.Generic;
 using System;
 
-namespace ProjectName.Tests
+namespace Bakery.Tests
 {
-  [TestClass]
-  public class ClassNameTests
-  {
-  [TestMethod]
-    public void ClassNameConstructor_CreatesInstanceOfClassName_ClassName()
+    [TestClass]
+    public class PastryTests
     {
-      // Arrange
-      ClassName newClass = new ClassName(2, 3, 8);
-      // Act
-      //not needed here
-      // Assert
-    Assert.AreEqual(typeof(ClassName), newClass.GetType());
+        [TestMethod]
+        public void PastryConstructor_CreatesInstanceOfPastry_Pastry()
+        {
+            int order = 1;
+            Pastry PastryLoaf = new Pastry(order);
+            Assert.AreEqual(typeof(Pastry), PastryLoaf.GetType());
+        }
+        [TestMethod]
+        public void GetPastryOrder_SetValueOfPastryOrder_Int()
+        {
+            int howMany = 1;
+            Pastry PastryLoaf = new Pastry(howMany);
+            PastryLoaf.Order = howMany;
+            Assert.AreEqual(howMany, PastryLoaf.Order);
+        }
+        [TestMethod]
+        public void GetOrder_SetsValueOrder_Int()
+        {
+            int howMany = 2;
+            int calculated = 2 * howMany;
+            Pastry PastryLoaf = new Pastry(howMany);
+            int PastryCost = PastryLoaf.OrderCalculate(howMany);
+            Assert.AreEqual(calculated, PastryCost);
+        }
     }
-  }
 }
-*/
