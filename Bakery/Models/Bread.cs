@@ -5,10 +5,15 @@ namespace Bakery.Models
 {
   public class Bread
   {
-    private int order;
+    public int Order { get; set; }
     public Bread(int howMany)
     {
-      order = howMany;
+      Order = howMany;
+    }
+    public int OrderCalculate(int howMany)
+    {
+        int calculated = 5*howMany;
+        return calculated;
     }
   }
 }
