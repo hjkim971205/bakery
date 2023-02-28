@@ -32,5 +32,14 @@ namespace Bakery.Tests
             int breadCost = breadLoaf.OrderCalculate(howMany);
             Assert.AreEqual(calculated, breadCost);
         }
+        [TestMethod]
+        public void CalculateDiscount_WithThreeLoavesOfBread_DiscountsOrder()
+        {
+            int howMany = 3;
+            Bread breadLoaf = new Bread(howMany);
+            breadLoaf.CalculateDiscount(); 
+            int expectedDiscount = 5;
+            Assert.AreEqual(expectedDiscount, breadLoaf.OrderDiscount);
+        }
     }
 }
