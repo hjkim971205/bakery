@@ -6,6 +6,7 @@ namespace Bakery.Models
     public class Bread
     {
         public int Order { get; set; }
+        public int OrderCost { get; set; }
         public int OrderDiscount { get; set; }
         public Bread(int howMany)
         {

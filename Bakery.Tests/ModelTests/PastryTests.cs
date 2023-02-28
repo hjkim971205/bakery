@@ -32,5 +32,15 @@ namespace Bakery.Tests
             int PastryCost = PastryLoaf.OrderCalculate(howMany);
             Assert.AreEqual(calculated, PastryCost);
         }
+        [TestMethod]
+        public void CalculateDiscount_WithFourPastries_DiscountsOnePastry()
+        {
+            int howMany = 4;
+            Pastry pastryLoaf = new Pastry(howMany);
+            pastryLoaf.CalculateDiscount();
+            int expectedCost = 6; 
+            int actualCost = pastryLoaf.OrderCost;
+            Assert.AreEqual(expectedCost, actualCost);
+        }
     }
 }

@@ -12,7 +12,7 @@
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+_The user will be able to interact with the terminal to order bread and pastry. The special deal for bread is that with every orders of 2 bread, the third will be free. The special deal with the pastry is that with every 3 pastries, the fourth will be free. Then the application should be able to send out the calculated amount of money for the order inputted._
 
 ## Setup/Installation Requirements
 
@@ -24,7 +24,7 @@ _{This is a detailed description of your application. Give as much detail as nee
 
 ## Known Bugs
 
-* _Any known issues_
+* _The Price of the Pastry and Bread don't compile as expected_
 
 * _hyungjinkim1205@gmail.com_
 
